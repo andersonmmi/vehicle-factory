@@ -135,13 +135,13 @@ console.log(mazda3);
 // It should print: "Building 35000 Red Touring Mazda3's."
 // Write your code below:
 
-mazda3.massBuild(35000, ["Red", "Touring", "Mazda3"]);
+mazda3.massBuild(35000, [mazda3.color, mazda3.trim, mazda3.model]);
 
 // Print, calling customerBuild(), building one yellow mazda3 with the following options, as an array: weather package, satellite radio, rear spoiler.
 // It should read: "Building one yellow Touring Mazda3 with the following options: weather package, satellite radio, rear spoiler"
 // Write your code below:
 
-mazda3.customerBuild(["yellow", "Touring", "Mazda3"], ["weather package", "satellite radio", "rear spoiler"]);
+mazda3.customerBuild([mazda3.color, mazda3.trim, mazda3.model], ["weather package", "satellite radio", "rear spoiler"]);
 
 // MIATA-RF MASS PRODUCTION
 // Create an instance  Sport.
@@ -187,10 +187,10 @@ console.log(trailBlazer);
 // It should print: "Building 35000 blue Sport Trail Blazer's."
 // Wrint your code below:
 
-trailBlazer.massBuild(35000, [trailBlazer.color,trailBlazer.trim]);
+trailBlazer.massBuild(35000, [trailBlazer.color,trailBlazer.trim,trailBlazer.model]);
 
 // Print trailBlazer, calling customerBuild(). It should build a red Trail Blazer with the following options, as an array: seat warmers, tinted windows, fog lamps.
 // It should print: "Building one red Sport Trail Blazer with the following options: seat warmers, tinted windows, fog lamps"
 // Write your code below:
 
-trailBlazer.customerBuild([trailBlazer.color, trailBlazer.model],["seat warmers", "tinted windows", "fog lamps"]);
+trailBlazer.customerBuild([trailBlazer.color, trailBlazer.trim, trailBlazer.model],["seat warmers", "tinted windows", "fog lamps"]);
